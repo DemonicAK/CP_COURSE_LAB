@@ -25,7 +25,8 @@ int main()
         else{
             printf("%d is largest",c);
         }
-    }
+    };
+    printf("jjj");
      return 0;
 }
  
