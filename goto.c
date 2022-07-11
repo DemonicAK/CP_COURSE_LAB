@@ -6,6 +6,16 @@
 
 
 #include <stdio.h>
+void checkEvenOrNot(int num);
+
+int main() {
+	int num ;
+    printf("number to check:");
+    scanf("%d",num);
+	checkEvenOrNot(num);
+	return 0;
+}
+
 
 // function to check even or not
 void checkEvenOrNot(int num)
@@ -25,10 +35,3 @@ odd:
 	printf("%d is odd", num);
 }
 
-int main() {
-	int num ;
-    printf("number to check:");
-    scanf("%d",num);
-	checkEvenOrNot(num);
-	return 0;
-}
